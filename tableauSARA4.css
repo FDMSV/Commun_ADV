@@ -1,3 +1,11 @@
+/* Couleurs Air France Hop */
+:root {
+  --bleu-airfrance: #00205b;
+  --rouge-hop: #e2001a;
+  --gris-clair: #f4f4f4;
+  --blanc: #ffffff;
+}
+
 /* Table */
 .tableau table {
   width: 100%;
