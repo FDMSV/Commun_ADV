@@ -1,3 +1,4 @@
+/* COULEUR DEFINIES POUR LE JAVASCRIPT */
 window.HOP_COLORS = {
   couleur_AF: '#051039',
   couleur_HOP: '#f00500',
@@ -28,3 +29,8 @@ window.HOP_COLORS = {
   couleur_HOP_CP5_CA2: '#BB23A0',
   couleur_HOP_CP5_CA3: '#6023C2'
 };
+
+/* COULEUR REDEFINIES POUR LE CSS */
+Object.entries(window.HOP_COLORS).forEach(([key, value]) => {
+  document.documentElement.style.setProperty(`--${key}`, value);
+});
