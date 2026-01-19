@@ -26,9 +26,9 @@ document.getElementById('titre').innerHTML = 'Titre <span class="sous-titre"> so
 
 /* Header global */
 header {
-    background-color: var(--blanc);
+    background-color: HOP_COLORS.blanc;
     padding: 20px;
-    border-bottom: 4px solid var(--rouge-hop);
+    border-bottom: 4px solid HOP_COLORS.couleur_HOP;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -48,7 +48,7 @@ header {
 .header-left h1 {
     margin: 0;
     font-size: 2em;
-    color: var(--bleu-airfrance);
+    color: HOP_COLORS.couleur_AF;
 }
 
 .sous-titre {
@@ -59,8 +59,8 @@ header {
 
 /* Style du bouton aide */
 .button {
-    background-color: var(--bleu-airfrance);
-    color: var(--blanc);
+    background-color: HOP_COLORS.couleur_AF;
+    color: HOP_COLORS.blanc;
     border: none;
     margin-bottom: 10px;
     padding: 12px 20px;
@@ -71,6 +71,6 @@ header {
 }
 
 .button:hover {
-    background-color: var(--rouge-hop);
+    background-color: HOP_COLORS.couleur_HOP;
     transform: translateY(-2px);
 }
