@@ -3,7 +3,8 @@ window.HOP_COLORS = {
   couleur_AF: '#051039',
   couleur_HOP: '#f00500',
   blanc: '#ffffff',
-  gris-clair : '#f4f4f4',
+  gris_clair : '#f4f4f4',
+  rouge_clair = '#f08888',
 
   couleur_HOP_CP1: '#FFB500',
   couleur_HOP_CP1_CA1: '#FFCE00',
