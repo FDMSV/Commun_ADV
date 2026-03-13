@@ -28,6 +28,7 @@ document.getElementById('titre').innerHTML = 'Titre <span class="sous-titre"> so
 header {
     background-color: var(--blanc);
     padding: 20px;
+    margin: -10px;
     border-bottom: 4px solid var(--couleur_HOP);
     display: flex;
     justify-content: space-between;
